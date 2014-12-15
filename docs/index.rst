@@ -50,3 +50,10 @@ Barriers, Facilitators & Insights
 *A big insight*
 
 - Open Source tools diminish value for a lack of design
+
+
+
+
+=================================
+
+@todo: project model (basecamp)

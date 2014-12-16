@@ -1,0 +1,36 @@
+{
+  "name": "Mangosta",
+  "version": "0.0.0",
+  "description": "Bullet-proof front-end architecture for fast development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xaviju",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-cached": "^1.0.1",
+    "gulp-coffee": "^2.1.1",
+    "gulp-coffeelint": "^0.3.3",
+    "gulp-concat": "^2.3.4",
+    "gulp-htmlhint": "0.0.9",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-ruby-sass": "^0.6.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-webserver": "^0.5.0",
+    "imagemin-pngcrush": "^0.1.0"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp-csslint": "^0.1.4",
+    "gulp-filesize": "0.0.6",
+    "gulp-jade": "^0.6.1",
+    "gulp-plumber": "^0.6.3",
+    "gulp-ruby-sass": "^0.6.0",
+    "gulp-scss-lint": "^0.1.0",
+    "gulp-watch": "^0.6.10",
+    "jade": "^1.3.1",
+    "plumber": "^0.4.3"
+  }
+}

@@ -1,0 +1,57 @@
+form {
+    margin: 0;
+}
+
+label,
+.label-group {
+    display: block;
+    overflow: hidden;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 $small-margin;
+    vertical-align: middle;
+
+    + label {
+        vertical-align: middle;
+    }
+}
+
+textarea,
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+select[multiple],
+select[size],
+input[type="date"] {
+    @include transition(all .3s linear);
+    border: 1px solid $whitish;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+textarea {
+    height: auto;
+    min-height: 10rem;
+}
+
+select,
+select[multiple],
+select[size],
+textarea,
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='date'] {
+    display: inherit;
+    margin: '#{$small-margin} 0';
+    padding: $small-padding;
+    vertical-align: middle;
+}

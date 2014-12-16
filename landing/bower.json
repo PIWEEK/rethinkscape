@@ -1,0 +1,21 @@
+{
+  "name": "Mangosta",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "Xavier Julián <xavier.julian@kaleidos.net>"
+  ],
+  "description": "Bullet-proof front-end architecture for fast development",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "3.2.3",
+    "normalize.css": "~3.0.1"
+  }
+}

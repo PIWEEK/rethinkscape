@@ -1,0 +1,27 @@
+// Based on Hugo Giraudel post on Sass 3.3 maps
+// http://sass-lang.com/documentation/file.SASS_REFERENCE.html#maps
+// http://www.sitepoint.com/managing-responsive-breakpoints-sass#with-a-configurable-mixin
+
+$breakpoints: (
+  'small'  : 767px,
+  'medium' : 992px,
+  'large'  : 1200px
+);
+
+@mixin responsive($breakpoint) {
+    // Retrieves the value from the key
+    $value: map-get($breakpoints, $breakpoint);
+    // If the key exists in the map
+    @if $value != null {
+        // Prints a media query based on the value
+        @media (min-width: $value) {
+            @content;
+        }
+    } @else { // If the key doesn't exist in the map
+        @warn 'Unfortunately, no value could be retrieved from `#{$breakpoint}`. '
+            + 'Please make sure it is defined in `$breakpoints` map.';
+    }
+}
+
+//Use example
+// @include responsive(small) {...}

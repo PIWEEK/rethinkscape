@@ -36,11 +36,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.66538988"
-     inkscape:cx="735.24668"
-     inkscape:cy="392.38043"
+     inkscape:zoom="0.94100339"
+     inkscape:cx="326.13666"
+     inkscape:cy="722.42483"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
@@ -50,7 +50,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid3800"
@@ -101,36 +102,15 @@
        width="1680"
        id="rect2987"
        style="fill:#dcdcdc;fill-opacity:1;stroke:none" />
-    <path
-       sodipodi:type="arc"
+    <rect
        style="fill:#a9a9a9;fill-opacity:1;stroke:none"
-       id="path3757"
-       sodipodi:cx="21.831923"
-       sodipodi:cy="15.767942"
-       sodipodi:rx="10.69499"
-       sodipodi:ry="10.69499"
-       d="m 32.526913,15.767942 c 0,5.90668 -4.788311,10.694991 -10.69499,10.694991 -5.90668,0 -10.694991,-4.788311 -10.694991,-10.694991 0,-5.9066795 4.788311,-10.6949897 10.694991,-10.6949897 5.906679,0 10.69499,4.7883102 10.69499,10.6949897 z"
-       transform="matrix(0.85974742,0,0,0.85974742,-2.5038805,1.8567433)" />
-    <path
-       transform="matrix(0.85974742,0,0,0.85974742,25.008037,1.8567433)"
-       d="m 32.526913,15.767942 c 0,5.90668 -4.788311,10.694991 -10.69499,10.694991 -5.90668,0 -10.694991,-4.788311 -10.694991,-10.694991 0,-5.9066795 4.788311,-10.6949897 10.694991,-10.6949897 5.906679,0 10.69499,4.7883102 10.69499,10.6949897 z"
-       sodipodi:ry="10.69499"
-       sodipodi:rx="10.69499"
-       sodipodi:cy="15.767942"
-       sodipodi:cx="21.831923"
-       id="path3759"
-       style="fill:#a9a9a9;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#a9a9a9;fill-opacity:1;stroke:none"
-       id="path3761"
-       sodipodi:cx="21.831923"
-       sodipodi:cy="15.767942"
-       sodipodi:rx="10.69499"
-       sodipodi:ry="10.69499"
-       d="m 32.526913,15.767942 c 0,5.90668 -4.788311,10.694991 -10.69499,10.694991 -5.90668,0 -10.694991,-4.788311 -10.694991,-10.694991 0,-5.9066795 4.788311,-10.6949897 10.694991,-10.6949897 5.906679,0 10.69499,4.7883102 10.69499,10.6949897 z"
-       transform="matrix(0.85974742,0,0,0.85974742,52.519954,1.8567433)" />
+       id="rect3023"
+       width="18.258228"
+       height="18.258228"
+       x="7.1521358"
+       y="6.2840767"
+       ry="2.8801234"
+       rx="2.8801234" />
     <path
        style="fill:#808080;fill-opacity:1;stroke:none"
        d="m 19.949366,9.6237541 -3.668116,3.6681169 -3.668116,-3.6681169 -2.121321,2.1213209 3.668117,3.668116 -3.668117,3.668116 2.121321,2.121321 3.668116,-3.668117 3.668116,3.668117 2.121321,-2.121321 -3.668117,-3.668116 3.668117,-3.668116 -2.121321,-2.1213209 z"
@@ -155,6 +135,24 @@
          x="14"
          y="50.362198"
          style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#a9a9a9;fill-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">File   Edit   Layer ...</tspan></text>
+    <rect
+       style="opacity:0.77272728;fill:#a9a9a9;fill-opacity:1;stroke:none"
+       id="rect3019"
+       width="18.258228"
+       height="18.258228"
+       x="62.553688"
+       y="6.3845181"
+       ry="2.8801234"
+       rx="2.8801234" />
+    <rect
+       rx="2.8801234"
+       ry="2.8801234"
+       y="6.3845181"
+       x="34.553688"
+       height="18.258228"
+       width="18.258228"
+       id="rect3021"
+       style="opacity:0.77272728;fill:#a9a9a9;fill-opacity:1;stroke:none" />
   </g>
   <g
      inkscape:groupmode="layer"

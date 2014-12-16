@@ -40,4 +40,4 @@ Surprisingly, when we analyzed the features that our designers use in their ever
 Open source design
 ------------------
 
-Please, just read this Brad Frost's aricle: `Designing in the open <http://bradfrost.com/blog/post/designing-in-the-open//>`_
+Please, just read this Brad Frost's aricle: `Designing in the open <http://bradfrost.com/blog/post/designing-in-the-open/>`_

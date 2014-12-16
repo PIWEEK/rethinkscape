@@ -1,8 +1,8 @@
-Barriers, Facilitators & Insights
+The Pains & the goods
 =================================
 
-Barriers :(
-------------
+Pains (Barriers) :(
+-----------------------
 
 - There're a lot of unused features at plain sight
 - It's hard to find specific functionalities
@@ -17,8 +17,8 @@ Barriers :(
 - Room for improvements on groups & layers management
 - Room for improvements on gradients
 
-Facilitators :)
-----------------
+Goods (Facilitators) :)
+--------------------------
 
 - Complies with image standards
 - Powerful shortcuts system

@@ -22,6 +22,9 @@ Index
    main/index.rst
    barriers/index.rst
    goals/index.rst
+   structure/index.rst
+   tools/index.rst
+   visual/index.rst
 
 
 =================================

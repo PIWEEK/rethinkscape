@@ -140,7 +140,7 @@ gulp.task "copy",  ->
 
 # Rerun the task when a file changes
 gulp.task "watch", ->
-    gulp.watch(paths.jade, ["jade", "htmlhint"])
+    gulp.watch(paths.jade, ["jade"])
     gulp.watch(paths.scss, ["scsslint", "sass", "csslint"])
     gulp.watch(paths.coffee, ["coffeelint", "coffee"])
 

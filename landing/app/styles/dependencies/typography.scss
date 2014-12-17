@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: $blackish;
+    color: $white;
     font-weight: normal;
 
     a {
@@ -33,11 +33,16 @@ h6 {
 %xxlarge {font-size: 3rem;}
 
 // __Font Types__ //
-//%title {font-family: 'DroidSans';}
-//%text {font-family: 'DroidSans';}
-//%bold {font-family: 'DroidSans-Bold';}
-//%taiga {font-family: 'taiga';}
 
+%text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+%bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
 
 // Font styles
 
@@ -54,6 +59,7 @@ h3 {
 }
 
 p {
+    color: $white;
     margin: 0 0 $margin;
 
     img {

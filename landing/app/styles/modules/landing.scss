@@ -1,0 +1,18 @@
+.landing {
+    background: $grayer;
+    height: 100vh;
+
+    h1 {
+        @extend %text;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        @extend %text;
+        @extend %medium;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}

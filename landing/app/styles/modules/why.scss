@@ -1,5 +1,5 @@
 .why {
-    background: $grayer no-repeat center center;
+    background: $white;
     height: 100vh;
     padding: 2rem 3rem;
 
@@ -25,7 +25,7 @@
 
         li {
             @extend %larger;
-            color: $gray-light;
+            color: $gray;
             line-height: 1;
             list-style-image: url('../svg/heart.svg');
 
@@ -37,5 +37,16 @@
 
     .love {
         margin-bottom: 3rem;
+
+        h2 {
+            color: $pink;
+        }
+    }
+
+    .pain {
+
+        h2 {
+            color: $red;
+        }
     }
 }

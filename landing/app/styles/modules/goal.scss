@@ -1,0 +1,55 @@
+.goal {
+    background: url('../images/grid.png') repeat top left, url('../images/goal.jpg') no-repeat center center;
+    height: 100vh;
+    padding: 3rem;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 60px;
+        width: 100%;
+    }
+
+    .main-goal {
+        margin-bottom: 4rem;
+
+        h2 {
+            @extend %larger;
+            margin: .5rem;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 2rem;
+            text-align: center;
+        }
+    }
+
+    .sub-goal {
+        @include display(flex);
+        @include justify-content(center);
+        @include align-items(center);
+        @include align-content(center);
+
+        >div {
+            @include flex(1);
+            text-align: center;
+        }
+
+        .goal-ux {
+            color: $green;
+        }
+
+        .goal-ui {
+            color: $blue;
+        }
+
+        .goal-community {
+            color: $purple;
+        }
+
+        p {
+            margin-top: 1rem;
+        }
+    }
+}

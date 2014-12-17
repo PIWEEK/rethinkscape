@@ -21,7 +21,7 @@ coffee = require('gulp-coffee')
 coffeelint = require('gulp-coffeelint')
 # Optimization
 imagemin = require('gulp-imagemin')
-pngcrush = require('imagemin-pngcrush')
+pngquant = require('imagemin-pngquant')
 # Connect
 webserver = require('gulp-webserver')
 
@@ -115,9 +115,10 @@ gulp.task 'imagemin', ->
     return gulp.src(paths.imageMain)
         .pipe(imagemin({
             progressive: true,
-            use: [pngcrush()]
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
         }))
-        .pipe(gulp.dest(paths.imageDist))
+        .pipe(gulp.dest(paths.imageDist));
 
 ##############################################################################
 # Common related tasks

@@ -1,9 +1,15 @@
 .landing {
-    background: $grayer;
+    background: url('../images/homebg.png') $grayer no-repeat center center;
+    background-size: cover;
     height: 100vh;
+
+    .landing-title {
+        padding-top: 66vh;
+    }
 
     h1 {
         @extend %text;
+        @extend %xxlarge;
         margin: 0 auto;
         text-align: center;
     }

@@ -1,17 +1,17 @@
 .goal {
-    background: url('../images/grid.png') repeat top left, url('../images/goal.jpg') no-repeat center center;
+    background: $dark-green;
     height: 100vh;
-    padding: 3rem;
+    padding: 3rem 2rem;
 
     img {
         display: block;
         margin: 0 auto;
-        max-width: 60px;
+        max-width: 80px;
         width: 100%;
     }
 
     .main-goal {
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
 
         h2 {
             @extend %larger;
@@ -20,9 +20,16 @@
         }
 
         p {
+            @extend %larger;
+            @extend %bold;
             margin-top: 2rem;
             text-align: center;
         }
+    }
+
+    .weapons {
+        margin-bottom: 2rem;
+        text-align: center;
     }
 
     .sub-goal {
@@ -30,6 +37,7 @@
         @include justify-content(center);
         @include align-items(center);
         @include align-content(center);
+
 
         >div {
             @include flex(1);

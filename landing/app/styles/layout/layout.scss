@@ -1,5 +1,6 @@
 body,
 html {
+    @extend %text;
     margin: 0;
     padding: 0;
 }

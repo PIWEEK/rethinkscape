@@ -1,6 +1,7 @@
 .landing {
-    background: url('../images/homebg.png') $grayer no-repeat center center;
-    background-size: cover;
+
+    background: url('../images/grid.png') repeat top left, url('../images/homebg.png') no-repeat;
+    background-size: auto, cover;
     height: 100vh;
 
     .landing-title {
@@ -8,17 +9,20 @@
     }
 
     h1 {
-        @extend %text;
         @extend %xxlarge;
         margin: 0 auto;
         text-align: center;
     }
 
     h2 {
-        @extend %text;
         @extend %medium;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .piweek {
+        @extend %medium;
+        margin-top: 3rem;
     }
 
 }

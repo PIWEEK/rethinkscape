@@ -1,4 +1,41 @@
 .why {
     background: $grayer no-repeat center center;
     height: 100vh;
+    padding: 2rem 3rem;
+
+    .reasons {
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 60px;
+            width: 100%;
+        }
+
+        h2 {
+            @extend %larger;
+            margin: .5rem;
+            text-align: center;
+        }
+
+        ul {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        li {
+            @extend %larger;
+            color: $gray-light;
+            line-height: 1;
+            list-style-image: url('../svg/heart.svg');
+
+            span {
+                @extend %small;
+            }
+        }
+    }
+
+    .love {
+        margin-bottom: 3rem;
+    }
 }

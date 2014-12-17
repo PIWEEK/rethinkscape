@@ -46,6 +46,9 @@ paths = {
     imageMain: "app/images/*"
     imageDist: "dist/images/"
     ##################
+    svgMain: "app/svg/*"
+    svgDist: "dist/svg/"
+    ##################
     fontsMain: "app/fonts/*"
     fontsDist: "dist/fonts/"
 }
@@ -128,6 +131,8 @@ gulp.task 'imagemin', ->
 gulp.task "copy",  ->
     gulp.src(paths.fontsMain)
         .pipe(gulp.dest(paths.fontsDist))
+    gulp.src(paths.svgMain)
+        .pipe(gulp.dest(paths.svgDist))
 
 ##############################################################################
 # Server Related tasks

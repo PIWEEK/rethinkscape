@@ -1,6 +1,6 @@
 .landing {
 
-    background: url('../images/grid.png') repeat top left, url('../images/homebg.png') no-repeat;
+    background: url('../images/grid.png') repeat top left, url('../images/homebg.png') no-repeat center center;
     background-size: auto, cover;
     height: 100vh;
 
@@ -22,7 +22,15 @@
 
     .piweek {
         @extend %medium;
+        @include transition(color .3s linear);
+        display: block;
         margin-top: 3rem;
+        text-align: center;
+
+        &:hover {
+            @include transition(color .3s linear);
+            color: $orange;
+        }
     }
 
 }

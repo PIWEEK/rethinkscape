@@ -161,7 +161,7 @@ gulp.task "default", [
     "scsslint",
     "sass",
     "csslint",
-    "coffeelint",
+    #"coffeelint",
     "coffee",
     "imagemin",
     "copy",

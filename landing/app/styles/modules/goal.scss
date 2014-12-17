@@ -25,6 +25,14 @@
             margin-top: 2rem;
             text-align: center;
         }
+
+        span {
+            display: none;
+
+            &:first-child {
+                display: block;
+            }
+        }
     }
 
     .weapons {

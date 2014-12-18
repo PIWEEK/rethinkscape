@@ -4,6 +4,12 @@
     min-height: 100vh;
     padding: 2rem;
 
+    p {
+        @extend %small;
+        color: $gray;
+        margin-bottom: 2rem;
+    }
+
     .container {
         margin: 0 auto;
         max-width: 900px;

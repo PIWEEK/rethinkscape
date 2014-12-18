@@ -1,16 +1,15 @@
 .why {
     background: $white;
-    height: 100vh;
-    padding: 2rem 3rem;
+    min-height: 100vh;
+    padding: 3rem 2rem;
+
+    .icon {
+      width: 80px;
+      display: block;
+      margin: 0 auto;
+    }
 
     .reasons {
-
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 60px;
-            width: 100%;
-        }
 
         h2 {
             @extend %larger;

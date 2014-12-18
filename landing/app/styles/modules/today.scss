@@ -1,11 +1,11 @@
 .today {
     background: $whitish;
-    height: 100vh;
+    min-height: 100vh;
     padding: 3rem 2rem;
     text-align: center;
 
     h2 {
-      margin: 0 0 2rem;
+      margin: 2rem 0;
       color: $blackish;
     }
 
@@ -14,12 +14,14 @@
       color: $gray;
     }
 
-    .icon {
-        width: 80px;
-    }
-
     img {
         margin-top: 1rem;
         max-width: 100%;
+    }
+
+    .icon {
+      width: 80px;
+      opacity: 0.2;
+      margin-top: 0;
     }
 }

@@ -1,17 +1,14 @@
 .today {
     background: $whitish;
-    min-height: 100vh;
-    padding: 3rem 2rem;
-    text-align: center;
 
     h2 {
-      margin: 2rem 0;
-      color: $blackish;
+        color: $blackish;
+        margin: 2rem 0;
     }
 
     p {
-      margin: 0 0 2rem;
-      color: $gray;
+        color: $gray;
+        margin: 0 0 2rem;
     }
 
     img {
@@ -20,8 +17,8 @@
     }
 
     .icon {
-      width: 80px;
-      opacity: 0.2;
-      margin-top: 0;
+        margin-top: 0;
+        opacity: .2;
+        width: 80px;
     }
 }

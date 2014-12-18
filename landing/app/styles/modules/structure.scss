@@ -1,0 +1,24 @@
+.structure {
+    background: $purple;
+    color: $gray;
+    height: 100vh;
+    padding: 2rem;
+
+    h2 {
+        color: $orange;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    ol {
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+}

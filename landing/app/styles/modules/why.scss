@@ -23,10 +23,11 @@
         }
 
         li {
-            @extend %larger;
+            @extend %medium;
             color: $gray;
             line-height: 1;
             list-style-image: url('../svg/heart.svg');
+            margin-bottom: .5rem;
 
             span {
                 @extend %small;

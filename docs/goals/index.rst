@@ -2,11 +2,12 @@ Project Goals
 =================================
 
 We’ve made several working sessions to clarify the main inkscape problems in terms of user experience. We got to a list of good and bad things that lead us to what we find are the major issues that we will approach:
+
 - There are a lot of non key features at plain sight and at the same level of the basic ones.
 - There is no consistency in the user flow
 - There is room for improvements on visual design.
 
-[photos]
+.. image:: ../images/goals.jpg
 
 With this in mind we decided to focus our inkscape redesign proposal on three basic concepts:
 

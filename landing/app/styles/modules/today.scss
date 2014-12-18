@@ -1,11 +1,17 @@
 .today {
-    background: $orange;
+    background: $whitish;
     height: 100vh;
     padding: 3rem 2rem;
     text-align: center;
 
     h2 {
-        margin: .5rem 0;
+      margin: 0 0 2rem;
+      color: $blackish;
+    }
+
+    p {
+      margin: 0 0 2rem;
+      color: $gray;
     }
 
     .icon {

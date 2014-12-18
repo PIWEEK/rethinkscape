@@ -4,6 +4,12 @@
     min-height: 100vh;
     padding: 2rem;
 
+    .icon {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+
     h2 {
         color: $blue;
         text-align: center;
@@ -16,7 +22,7 @@
         width: 100%;
     }
 
-    ol {
+    ul {
         list-style-position: inside;
         margin: 0;
         padding: 0;

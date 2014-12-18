@@ -1,7 +1,5 @@
 .why {
     background: $white;
-    min-height: 100vh;
-    padding: 3rem 2rem;
 
     .icon {
         display: block;
@@ -13,7 +11,7 @@
 
         h2 {
             @extend %larger;
-            margin: .5rem;
+            margin: 1rem;
             text-align: center;
         }
 
@@ -26,8 +24,9 @@
             @extend %medium;
             color: $gray;
             line-height: 1;
-            list-style-image: url('../svg/heart.svg');
-            margin-bottom: .5rem;
+            // list-style-image: url('../svg/heart.svg');
+            list-style-type: none;
+            margin-bottom: 1rem;
 
             span {
                 @extend %small;

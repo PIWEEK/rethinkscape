@@ -1,11 +1,11 @@
 .who {
-    background: $green;
-    color: $black;
+    background: url('../images/grid.png') $blackish repeat top left;
+    color: $white;
     min-height: 100vh;
     padding: 2rem;
 
     h2 {
-        color: $pink;
+        color: $red;
         text-align: center;
     }
 

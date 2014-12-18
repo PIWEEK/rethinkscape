@@ -1,11 +1,17 @@
 .structure {
-    background: $purple;
+    background: $whitish;
     color: $gray;
     min-height: 100vh;
     padding: 2rem;
 
+    .icon {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+
     h2 {
-        color: $orange;
+        color: $grayer;
         text-align: center;
     }
 
@@ -16,9 +22,57 @@
         width: 100%;
     }
 
-    ol {
-        list-style-position: inside;
+    ul {
+        list-style: none;
         margin: 0;
         padding: 0;
+        li {
+            padding-left: 2rem;
+            position: relative;
+            &::before {
+                border-radius: 50%;
+                content: "";
+                height: 15px;
+                left: 0px;
+                position: absolute;
+                top: 10%;
+                width: 15px;
+            }
+            &.work-space {
+                &::before {
+                    background-color: $gray;
+                }
+            }
+            &.toolbar {
+                &::before {
+                    background-color: $orange;
+                }
+            }
+            &.tool-settings {
+                &::before {
+                    background-color: $green-blue;
+                }
+            }
+            &.colors {
+                &::before {
+                    background-color: $orange;
+                }
+            }
+            &.colors {
+                &::before {
+                    background-color: $orange;
+                }
+            }
+            &.info {
+                &::before {
+                    background-color: $orange;
+                }
+            }
+            &.panels {
+                &::before {
+                    background-color: $orange;
+                }
+            }
+        }
     }
 }

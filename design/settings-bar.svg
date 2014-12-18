@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="110.82032"
-     inkscape:cy="235.70116"
+     inkscape:zoom="1"
+     inkscape:cx="1264.7603"
+     inkscape:cy="278.18059"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
@@ -907,5 +907,43 @@
        height="3.3015873"
        x="52.254539"
        y="-721.73004" />
+    <rect
+       style="fill:#9acd32;fill-opacity:1;stroke:none"
+       id="rect3115"
+       width="50.002552"
+       height="12.121831"
+       x="1540.4827"
+       y="55.583694" />
+    <rect
+       y="73.583694"
+       x="1540.4827"
+       height="12.121831"
+       width="50.002552"
+       id="rect3885"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d5d5d5;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1520.2795"
+       y="65.372635"
+       id="text3887"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3889"
+         x="1520.2795"
+         y="65.372635"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d5d5d5;fill-opacity:1;font-family:Open Sans;-inkscape-font-specification:Open Sans">Fill:</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3891"
+       y="83.372635"
+       x="1502.2795"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d5d5d5;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d5d5d5;fill-opacity:1;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         y="83.372635"
+         x="1502.2795"
+         id="tspan3893"
+         sodipodi:role="line">Stroke:</tspan></text>
   </g>
 </svg>

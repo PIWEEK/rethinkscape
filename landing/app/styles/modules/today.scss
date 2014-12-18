@@ -1,0 +1,19 @@
+.today {
+    background: $orange;
+    height: 100vh;
+    padding: 3rem 2rem;
+    text-align: center;
+
+    h2 {
+        margin: .5rem 0;
+    }
+
+    .icon {
+        width: 80px;
+    }
+
+    img {
+        margin-top: 1rem;
+        max-width: 100%;
+    }
+}

@@ -7,6 +7,11 @@ html {
 
 .mod {
     min-height: 100vh;
-    padding: 3rem 2rem;
+    padding: 1.4rem;
     text-align: center;
+
+    .container {
+        margin: 0 auto;
+        max-width: 1360px;
+    }
 }

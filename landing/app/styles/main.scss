@@ -41,8 +41,9 @@ $prefix-for-spec:      true;
 @import 'modules/how';
 @import 'modules/structure';
 @import 'modules/tools';
+@import 'shame/shame';
 
 //********************************************
-// SHAME
+// MEDIA QUERIES
 //********************************************
-@import 'shame/shame';
+@import 'dependencies/mediaqueries';

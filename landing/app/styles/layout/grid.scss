@@ -1,0 +1,42 @@
+/*------------------------------------*\
+$GRIDS
+\*------------------------------------*/
+
+.row {
+    font-size: 0;
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: -3.2rem;
+
+    .col {
+        box-sizing: border-box;
+        display: inline-block;
+        font-size: 1rem;
+        padding-left: 3.2rem;
+        vertical-align: top;
+    }
+}
+
+/*------------------------------------*\
+$WIDTHS
+\*------------------------------------*/
+
+.one-whole {
+    width: 100%;
+}
+
+.one-quarter {
+    width: 25%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.three-quarters {
+    width: 75%;
+}

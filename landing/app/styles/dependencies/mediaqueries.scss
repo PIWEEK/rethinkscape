@@ -12,6 +12,26 @@
         padding: 3rem;
     }
 
+    .one-whole-small {
+        width: 100%;
+    }
+
+    .one-quarter-small {
+        width: 25%;
+    }
+
+    .one-third-small {
+        width: 33%;
+    }
+
+    .one-half-small {
+        width: 50%;
+    }
+
+    .three-quarters-small {
+        width: 75%;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -25,7 +45,7 @@
     %xxlarge {font-size: 4rem;}
 
     .mod {
-        padding: 2rem 3rem;
+        padding: 4rem;
     }
 
 }
@@ -41,7 +61,7 @@
     %xxlarge {font-size: 5rem;}
 
     .mod {
-        padding: 2rem 3rem;
+        padding: 6rem;
     }
 
 }

@@ -9,9 +9,9 @@ $GRIDS
     margin-left: -3.2rem;
 
     .col {
+        @extend %medium;
         box-sizing: border-box;
         display: inline-block;
-        @extend %medium;
         padding: 1rem 0 1rem 3.2rem;
         vertical-align: top;
     }

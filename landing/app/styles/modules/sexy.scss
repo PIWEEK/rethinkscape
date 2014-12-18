@@ -1,0 +1,17 @@
+.sexy {
+    background: $white;
+    color: $black;
+    min-height: 100vh;
+    padding: 2rem;
+
+    h2 {
+        color: $pink;
+        text-align: center;
+    }
+
+    h3 {
+        @extend %bold;
+        @extend %medium;
+        color: $pink;
+    }
+}

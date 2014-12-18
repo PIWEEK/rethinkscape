@@ -1,0 +1,24 @@
+.visual {
+    background: $gray;
+    color: $white;
+    min-height: 100vh;
+    padding: 2rem;
+
+    h2 {
+        color: $green;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    ol {
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+}

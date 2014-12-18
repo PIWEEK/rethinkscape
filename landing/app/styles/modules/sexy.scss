@@ -13,5 +13,18 @@
         @extend %bold;
         @extend %medium;
         color: $pink;
+
+        span {
+            @extend %medium;
+            color: $gray;
+            display: block;
+        }
+    }
+
+    blockquote {
+        background: url('../images/quotes.png') no-repeat 0 0;
+        color: $gray;
+        margin: 0;
+        padding: 0 0 0 3rem;
     }
 }

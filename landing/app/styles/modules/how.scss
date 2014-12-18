@@ -1,0 +1,23 @@
+.how {
+    background: $white;
+    color: $gray;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+
+    h2 {
+        color: $blue;
+    }
+
+    h3 {
+        @extend %medium;
+        @extend %bold;
+        color: $gray;
+        margin-bottom: .5rem;
+    }
+
+    img {
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}

@@ -14,7 +14,7 @@
    height="832.30804"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91pre3 r13670"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="panels.svg">
   <defs
      id="defs4">
@@ -41,13 +41,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="163.21286"
-     inkscape:cy="565.76676"
+     inkscape:cx="70.96286"
+     inkscape:cy="645.76676"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1416"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
      inkscape:window-x="1920"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -124,7 +124,7 @@
        x="35.875"
        y="331.74557" />
     <rect
-       style="opacity:1;fill:#535353;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:#363636;fill-opacity:1;stroke:none"
        id="rect3848"
        width="321.25"
        height="33.400757"
@@ -550,7 +550,7 @@
        height="33.400757"
        width="321.25"
        id="rect4205"
-       style="opacity:1;fill:#535353;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#363636;fill-opacity:1;stroke:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4207"

@@ -5,13 +5,14 @@ html {
     padding: 0;
 }
 
+// __Modules__ //
 .mod {
-    min-height: 100vh;
+    // min-height: 100vh;
     padding: 1.4rem;
     text-align: center;
 
     .container {
         margin: 0 auto;
-        max-width: 1360px;
+        max-width: 1260px;
     }
 }

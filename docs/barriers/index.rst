@@ -37,4 +37,4 @@ A big insight
 --------------
 
 **Most designers think that inkscape has none of this features**
-While we agree that Inkscape is powerful and flexible, we found out that most of the designers still using propietary software (paying it or hacking it) because they think that Inkscape is not stable and professional for theis current job. And surprisignly, **most of them agreed that the lack of confidence in open source software as inkscape was caused by its interface and poor usability.**
+    While we agree that Inkscape is powerful and flexible, we found out that most of the designers still using propietary software (paying it or hacking it) because they think that Inkscape is not stable and professional for theis current job. And surprisignly, **most of them agreed that the lack of confidence in open source software as inkscape was caused by its interface and poor usability.**

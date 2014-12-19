@@ -1,5 +1,5 @@
 .who {
-    background: url('../images/grid.png') $dark-green repeat top left;
+    background: url('../images/grid.png') $grayer repeat top left;
     color: $white;
     min-height: 100vh;
     padding: 2rem;
@@ -18,7 +18,7 @@
     h3 {
         @extend %bold;
         @extend %medium;
-        color: $pink;
+        color: $orange;
     }
 
     a {

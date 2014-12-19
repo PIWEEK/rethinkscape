@@ -5,8 +5,14 @@
     padding: 2rem;
     text-align: center;
 
+    .icon {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+
     h2 {
-        color: $blue;
+        color: $orange;
     }
 
     h3 {
@@ -17,8 +23,8 @@
     }
 
     img {
-        margin-bottom: 1rem;
-        max-width: 940px;
+        border-radius: 1rem;
+        margin: 2rem 0 1rem;
         width: 100%;
     }
 }

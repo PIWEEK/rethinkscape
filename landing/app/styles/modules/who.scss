@@ -1,17 +1,37 @@
 .who {
-    background: url('../images/grid.png') $blackish repeat top left;
+    background: url('../images/grid.png') $grayer repeat top left;
     color: $white;
     min-height: 100vh;
     padding: 2rem;
 
+    .icon {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+
     h2 {
-        color: $red;
+        color: $white;
         text-align: center;
     }
 
     h3 {
         @extend %bold;
         @extend %medium;
-        color: $pink;
+        color: $orange;
+    }
+
+    a {
+        color: $blue;
+
+        &:hover {
+            color: $white;
+        }
+
+    }
+
+    img {
+        border-radius: 50%;
+        max-width: 80%;
     }
 }

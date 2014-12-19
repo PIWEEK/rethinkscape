@@ -45,6 +45,9 @@
         @include align-items(center);
         @include align-content(center);
 
+        img {
+            max-width: 55%;
+        }
 
         >div {
             @include flex(1);

@@ -2,6 +2,12 @@
     background: url('../images/grid.png') $dark-green repeat top left;
     color: $white;
 
+    .icon {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+    }
+
     h2 {
         text-align: center;
     }

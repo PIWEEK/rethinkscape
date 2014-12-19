@@ -1,7 +1,6 @@
 .who {
     background: url('../images/grid.png') $grayer repeat top left;
     color: $white;
-    min-height: 100vh;
     padding: 2rem;
 
     .icon {
@@ -15,17 +14,16 @@
         text-align: center;
     }
 
-    h3 {
-        @extend %bold;
-        @extend %medium;
-        color: $orange;
-    }
-
     a {
-        color: $blue;
 
         &:hover {
             color: $white;
+        }
+
+        h3 {
+            @extend %bold;
+            @extend %medium;
+            color: $blue;
         }
 
     }

@@ -173,7 +173,8 @@ $WIDTHS
     margin: 0 0 2rem; }
   .today img {
     margin-top: 1rem;
-    max-width: 100%; }
+    max-width: 100%;
+    width: 100%; }
   .today .icon {
     margin-top: 0;
     opacity: 0.5;

@@ -71,14 +71,14 @@
 
         .colors {
             &::before {
-                background-color: $green;
+                background-color: $blue;
                 content: "4";
             }
         }
 
         .info {
             &::before {
-                background-color: $blue;
+                background-color: $green;
                 content: "5";
             }
         }

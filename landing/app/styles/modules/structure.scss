@@ -22,6 +22,35 @@
         width: 100%;
     }
 
+    .structure-img {
+        position: relative;
+
+        img {
+            position: absolute;
+
+            &.img1 {
+                padding-top: 7%;
+                position: relative;
+                z-index: 0;
+            }
+
+            &.img2 {
+                left: 9%;
+                top: 15%;
+                width: 88.5%;
+                z-index: 1;
+            }
+
+            &.img3 {
+                left: 7%;
+                top: 1%;
+                width: 72%;
+                z-index: 2;
+            }
+
+        }
+    }
+
     ul {
         list-style: none;
         margin: 0;
@@ -29,6 +58,7 @@
         text-align: left;
 
         li {
+            @extend %small;
             padding: .5rem 0 .5rem 3rem;
             position: relative;
 
@@ -40,7 +70,7 @@
                 font-weight: bold;
                 height: 30px;
                 left: 0;
-                line-height: 1.3;
+                line-height: 1.5;
                 position: absolute;
                 text-align: center;
                 top: 20%;

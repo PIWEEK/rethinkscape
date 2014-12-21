@@ -16,3 +16,17 @@ $large-padding: 2rem;
 .text-right {
     text-align: right;
 }
+
+// Display
+.hidden {
+    display: none;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.display {
+    @include transition(all .3s ease-in-out);
+    opacity: 1 !important;
+}

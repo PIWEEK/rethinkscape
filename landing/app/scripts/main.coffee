@@ -16,3 +16,21 @@ textlider = ->
         )
 
 setInterval(textlider, 2000)
+
+isVisible = ->
+  $.each images, (index, value) ->
+    visibility = isScrolledIntoView(value)
+    $(this).addClass "display"  if visibility
+    return
+
+  return
+isScrolledIntoView = (elem) ->
+  docViewTop = $(window).scrollTop()
+  docViewBottom = docViewTop + $(window).height()
+  elemTop = $(elem).offset().top
+  elemBottom = elemTop + $(elem).height()
+  (elemBottom <= docViewBottom) and (elemTop >= docViewTop)
+images = $("img")
+$(window).on "scroll", ->
+  isVisible()
+  return

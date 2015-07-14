@@ -1,3 +1,9 @@
+**NOTE This was an experimentation project (draft) in the last years [ΠWEEK](http://piweek.com/)** but, sadly, the project never got the required attention of the inkscape core team.
+
+Rethinkscape website (6 months old): http://piweek.github.io/rethinkscape/
+Docs: https://github.com/PIWEEK/rethinkscape/tree/master/docs
+Wireframes: https://github.com/PIWEEK/rethinkscape/tree/master/mockups
+
 Welcome to *rethinkscape*
 =============================
 
@@ -7,10 +13,4 @@ Inkscape it’s open source, free, powerful and standard compliant. It makes web
 
 After some years using it as our main design software **we decided we should contribute to the community with what we know how to do better: our passion for design and usability.**
 
-You can follow our advance in twitter in the hashtag [#rethinkscape](https://twitter.com/search?f=realtime&q=rethinkscape&src=typd)
 
-![Inkscape Team](https://pbs.twimg.com/media/B44qpvXIEAAv91d.jpg)
-
-![Inkscape Team](https://pbs.twimg.com/media/B4-YvaEIUAAN4Y9.jpg)
-
-![Inkscape Team](https://pbs.twimg.com/media/B4-QX3DIYAEqpSV.jpg)

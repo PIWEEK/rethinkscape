@@ -1,4 +1,4 @@
-**NOTE This was an experimentation project (draft) in the last years [ΠWEEK](http://piweek.com/)** but, sadly, the project never got the required attention of the inkscape core team.
+**NOTE This was an experimentation project (draft) in the last years [ΠWEEK](http://piweek.com/)**
 
 Rethinkscape website (6 months old): http://piweek.github.io/rethinkscape/
 Docs: https://github.com/PIWEEK/rethinkscape/tree/master/docs

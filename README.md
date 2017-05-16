@@ -1,6 +1,7 @@
-**NOTE This was an experimentation project (draft) in the last years [ΠWEEK](http://piweek.com/)**
+**NOTE This was an experimentation project from [ΠWEEK](http://piweek.com/). Is not active anymore.** 
+All redesign proposal can be sent to [Inkscape Blueprints](https://blueprints.launchpad.net/inkscape) and will be reviewed by the Inkscape team.
 
-Rethinkscape website (6 months old): http://piweek.github.io/rethinkscape/
+Rethinkscape website (deprecated): http://piweek.github.io/rethinkscape/
 Docs: https://github.com/PIWEEK/rethinkscape/tree/master/docs
 Wireframes: https://github.com/PIWEEK/rethinkscape/tree/master/mockups
 

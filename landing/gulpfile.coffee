@@ -15,7 +15,7 @@ sass = require('gulp-sass')
 #sass = require("gulp-ruby-sass")
 # Linter
 csslint = require("gulp-csslint")
-scsslint = require("gulp-scss-lint")
+# scsslint = require("gulp-scss-lint")|
 #coffee
 coffee = require('gulp-coffee')
 coffeelint = require('gulp-coffeelint')
@@ -73,14 +73,14 @@ gulp.task "htmlhint", ->
 # CSS Related tasks
 ##############################################################################
 
-gulp.task "scsslint", ->
-    gulp.src([paths.scss])
-        .pipe(cache("scsslint"))
-        .pipe(scsslint(
-            {'config': 'scsslint.yml'}
-        ))
+# gulp.task "scsslint", ->
+#     gulp.src([paths.scss])
+#         .pipe(cache("scsslint"))
+#         .pipe(scsslint(
+#             {'config': 'scsslint.yml'}
+#         ))
 
-gulp.task "sass", ["scsslint"], ->
+gulp.task "sass", ->
     gulp.src([paths.scssMain])
         .pipe(plumber())
         .pipe(sass())
@@ -141,7 +141,7 @@ gulp.task "copy",  ->
 # Rerun the task when a file changes
 gulp.task "watch", ->
     gulp.watch(paths.jade, ["jade"])
-    gulp.watch(paths.scss, ["scsslint", "sass", "csslint"])
+    gulp.watch(paths.scss, ["sass", "csslint"])
     gulp.watch(paths.coffee, ["coffeelint", "coffee"])
 
 gulp.task 'webserver', ->
@@ -159,7 +159,7 @@ gulp.task 'webserver', ->
 gulp.task "default", [
     "jade",
     "htmlhint"
-    "scsslint",
+    # "scsslint",
     "sass",
     "csslint",
     #"coffeelint",

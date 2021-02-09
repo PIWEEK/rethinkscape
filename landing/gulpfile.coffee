@@ -169,3 +169,11 @@ gulp.task "default", [
     "webserver",
     "watch"
 ]
+
+gulp.task "build", [
+    "jade",
+    "sass",
+    "coffee",
+    "imagemin",
+    "copy",
+]

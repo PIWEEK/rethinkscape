@@ -1,5 +1,5 @@
 **NOTE This was an experimentation project from [ΠWEEK](http://piweek.com/). Is not active anymore.** <br/>
-All redesign proposal can be sent to [Inkscape Blueprints](https://blueprints.launchpad.net/inkscape) (deprecated) and will be reviewed by the Inkscape team.
+All redesign proposal can be sent to [Inkscape Inbox](https://inkscape.org/report) and will be reviewed by the Inkscape team.
 
 Rethinkscape website (deprecated): http://piweek.github.io/rethinkscape/ \
 Docs: https://github.com/PIWEEK/rethinkscape/tree/master/docs \

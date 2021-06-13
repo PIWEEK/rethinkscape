@@ -1,9 +1,10 @@
-**NOTE This was an experimentation project from [ΠWEEK](http://piweek.com/). Is not active anymore.** <br/>
+**NOTE This was an experimentation project from [ΠWEEK](http://piweek.com/). Is not active anymore.**
+
 All redesign proposal can be sent to [Inkscape Inbox](https://inkscape.org/report) and will be reviewed by the Inkscape team.
 
-Rethinkscape website (deprecated): http://piweek.github.io/rethinkscape/ \
-Docs: https://github.com/PIWEEK/rethinkscape/tree/master/docs \
-Wireframes: https://github.com/PIWEEK/rethinkscape/tree/master/mockups <br/>
+* Rethinkscape website (deprecated): http://piweek.github.io/rethinkscape/
+* Docs: https://github.com/PIWEEK/rethinkscape/tree/master/docs
+* Wireframes: https://github.com/PIWEEK/rethinkscape/tree/master/mockups
 
 Welcome to *rethinkscape*
 =============================
